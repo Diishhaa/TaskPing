@@ -1,0 +1,59 @@
+name: Hackathon Tracker Daemon
+
+on:
+  schedule:
+    # Runs every 3 hours
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+    # Allows manual runs from the GitHub Actions UI
+
+permissions:
+  contents: write
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        persist-credentials: true
+
+    - name: Set up Python 3.12
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+        cache: 'pip'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run Scraper and Notifications
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        # Support user secrets BOT_TOKEN / CHAT_ID fallback
+        BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+        CHAT_ID: ${{ secrets.CHAT_ID }}
+        MIN_SCORE_THRESHOLD: 40
+      run: |
+        python src/main.py
+
+    - name: Commit and Push DB & CSV updates
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        
+        # Add SQLite database and CSV file
+        git add data/hackathons.db data/hackathons.csv
+        
+        # Check if there are changes before committing
+        if git diff-index --quiet HEAD --; then
+          echo "No database or CSV updates detected. Skipping push."
+        else
+          git commit -m "chore: automated hackathon database and CSV update [skip ci]"
+          git push origin HEAD:${{ github.ref }}
+        fi
