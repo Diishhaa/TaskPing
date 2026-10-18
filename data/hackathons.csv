@@ -1,15 +1,15 @@
 title,platform,priority_score,deadline,prize_pool,location,is_online,theme,organizer,participants_count,difficulty,team_required,url,tags,description,first_seen
 AgentVerse,Devfolio,25.0,2026-11-08T13:00:00+00:00,0,In-Person,0,,Devfolio,21.0,All levels,0,https://agentverse.devfolio.co,,,2026-10-16T23:12:53.094860+00:00
 Hack For Tomorrow 2026,Devfolio,33.0,2026-10-25T04:30:00+00:00,0,In-Person,0,,Devfolio,147.0,All levels,0,https://hft2026.devfolio.co,,,2026-10-15T13:51:51.728905+00:00
-Cognition 2026,Devfolio,35.0,2026-10-25T07:30:00+00:00,0,In-Person,0,,Devfolio,33.0,All levels,0,https://cognition-2026.devfolio.co,,,2026-10-15T13:51:51.728905+00:00
-Version Beta 9.0,Devfolio,29.0,2026-11-01T02:30:00+00:00,0,In-Person,0,,Devfolio,118.0,All levels,0,https://version-beta-9.devfolio.co,,,2026-10-15T13:51:51.728905+00:00
-Syntax Error 2026,Devfolio,48.0,2026-10-25T03:30:00+00:00,0,Online,1,,Devfolio,446.0,All levels,0,https://syntax-error-6.devfolio.co,,,2026-10-15T07:55:51.218375+00:00
-Hackman X,Devfolio,27.0,2026-10-27T04:30:00+00:00,0,In-Person,0,,Devfolio,890.0,All levels,0,https://hackman-x.devfolio.co,,,2026-10-11T11:58:18.006752+00:00
-Arkiv: Global Tour Stop 🌍,Devfolio,50.0,2026-10-18T22:59:00+00:00,0,Online,1,,Devfolio,356.0,All levels,0,https://arkiv.devfolio.co,,,2026-10-07T09:40:27.344393+00:00
-BIOS V2,Devfolio,27.0,2026-11-01T06:30:00+00:00,0,In-Person,0,,Devfolio,519.0,All levels,0,https://biosv2.devfolio.co,,,2026-10-01T12:16:02.979851+00:00
+Cognition 2026,Devfolio,35.0,2026-10-25T07:30:00+00:00,0,In-Person,0,,Devfolio,35.0,All levels,0,https://cognition-2026.devfolio.co,,,2026-10-15T13:51:51.728905+00:00
+Version Beta 9.0,Devfolio,29.0,2026-11-01T02:30:00+00:00,0,In-Person,0,,Devfolio,119.0,All levels,0,https://version-beta-9.devfolio.co,,,2026-10-15T13:51:51.728905+00:00
+Syntax Error 2026,Devfolio,48.0,2026-10-25T03:30:00+00:00,0,Online,1,,Devfolio,449.0,All levels,0,https://syntax-error-6.devfolio.co,,,2026-10-15T07:55:51.218375+00:00
+Hackman X,Devfolio,27.0,2026-10-27T04:30:00+00:00,0,In-Person,0,,Devfolio,892.0,All levels,0,https://hackman-x.devfolio.co,,,2026-10-11T11:58:18.006752+00:00
+Arkiv: Global Tour Stop 🌍,Devfolio,50.0,2026-10-18T22:59:00+00:00,0,Online,1,,Devfolio,363.0,All levels,0,https://arkiv.devfolio.co,,,2026-10-07T09:40:27.344393+00:00
+BIOS V2,Devfolio,27.0,2026-11-01T06:30:00+00:00,0,In-Person,0,,Devfolio,520.0,All levels,0,https://biosv2.devfolio.co,,,2026-10-01T12:16:02.979851+00:00
 Hackverse.2026,Devfolio,35.0,2026-10-06T14:30:00+00:00,0,In-Person,0,,Devfolio,287.0,All levels,0,https://hackverse-19.devfolio.co,,,2026-09-30T21:47:00.430800+00:00
 hackodisha-6.0,Devfolio,42.0,2026-11-01T06:30:00+00:00,0,Online,1,,Devfolio,956.0,All levels,0,https://hackodisha-6a.devfolio.co,,,2026-09-30T21:47:00.430800+00:00
-haxfinity,Devfolio,19.0,2026-12-13T05:00:00+00:00,0,In-Person,0,,Devfolio,236.0,All levels,0,https://haxfinity.devfolio.co,,,2026-09-30T21:47:00.430800+00:00
+haxfinity,Devfolio,19.0,2026-12-13T05:00:00+00:00,0,In-Person,0,,Devfolio,237.0,All levels,0,https://haxfinity.devfolio.co,,,2026-09-30T21:47:00.430800+00:00
 DevNexus 2.0,Devfolio,17.0,2026-11-28T18:30:00+00:00,0,In-Person,0,,Devfolio,738.0,All levels,0,https://devnexus2.devfolio.co,,,2026-09-30T21:47:00.430800+00:00
 GeNarrative Clash,Devfolio,17.0,2026-11-21T12:15:00+00:00,0,In-Person,0,,Devfolio,584.0,All levels,0,https://genarrative-clash.devfolio.co,,,2026-09-29T21:46:20.323000+00:00
 CODEARAMBH 2.0,Devfolio,29.0,2026-10-24T07:30:00+00:00,0,In-Person,0,,Devfolio,255.0,All levels,0,https://codearambh.devfolio.co,,,2026-09-28T12:40:51.877857+00:00
@@ -18,7 +18,7 @@ sudo Hacktober,Devfolio,33.0,2026-10-11T03:30:00+00:00,0,In-Person,0,,Devfolio,1
 Wild Bugs,Devfolio,46.0,2026-10-15T18:29:00+00:00,0,Online,1,,Devfolio,950.0,All levels,0,https://wild-bugs.devfolio.co,,,2026-09-25T10:58:30.721269+00:00
 Q-HACK INDIA 2026,Devfolio,21.0,2026-10-31T14:30:00+00:00,0,In-Person,0,,Devfolio,950.0,All levels,0,https://qhack-india.devfolio.co,,,2026-09-25T10:58:30.721269+00:00
 QuantHacks,Devfolio,23.0,2026-10-24T14:00:00+00:00,0,In-Person,0,,Devfolio,409.0,All levels,0,https://quanthacks2026.devfolio.co,,,2026-09-23T23:24:22.185487+00:00
-Srijan Setu,Devfolio,31.0,2026-10-24T04:30:00+00:00,0,In-Person,0,,Devfolio,757.0,All levels,0,https://srijan-setu.devfolio.co,,,2026-09-19T07:44:37.914783+00:00
+Srijan Setu,Devfolio,31.0,2026-10-24T04:30:00+00:00,0,In-Person,0,,Devfolio,760.0,All levels,0,https://srijan-setu.devfolio.co,,,2026-09-19T07:44:37.914783+00:00
 Winter of Code 2026,Devfolio,32.0,2026-11-30T18:30:00+00:00,0,Online,1,,Devfolio,964.0,All levels,0,https://winter-of-code-4.devfolio.co,,,2026-09-17T23:19:59.654961+00:00
 Innosprint2.0,Devfolio,33.0,2026-10-24T11:30:00+00:00,0,In-Person,0,,Devfolio,302.0,All levels,0,https://innosprint-3.devfolio.co,,,2026-09-17T18:45:16.678323+00:00
 "Rochester, New York",MLH,39.0,,MLH Sponsor Prizes,,0,Student Hackathon,Major League Hacking,,Beginner friendly,0,https://events.mlh.io/events/14418-hack-coms-2026?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HACK.COMS+2026,"mlh, student, hackathon",Official student hackathon part of the MLH 2026 season.,2026-09-15T18:40:20.892627+00:00
@@ -85,7 +85,7 @@ DSU DEVHACK 3.0,Devfolio,15.0,2026-09-19T10:45:00+00:00,0,In-Person,0,,Devfolio,
 HackNex Season 2,Devfolio,15.0,2026-09-26T05:30:00+00:00,0,In-Person,0,,Devfolio,2058.0,All levels,0,https://hacknex-season-2.devfolio.co,,,2026-07-09T15:29:06.011933+00:00
 MUBA Blockchain Hackathon,Devfolio,63.0,2026-09-05T15:59:00+00:00,0,Online,1,,Devfolio,1433.0,All levels,0,https://muba-hackathon.devfolio.co,,,2026-07-09T15:29:06.011933+00:00
 CodeStorm 2026: FutureForge,Devfolio,46.0,2026-10-15T18:29:00+00:00,0,Online,1,,Devfolio,2296.0,All levels,0,https://codestorm-futureforge.devfolio.co,,,2026-07-09T15:29:06.011933+00:00
-HACKER HOUSE GOA 2026,Devfolio,25.0,2026-10-31T08:30:00+00:00,0,In-Person,0,,Devfolio,55816.0,All levels,0,https://hacker-house-goa-2026.devfolio.co,,,2026-07-09T15:29:06.011933+00:00
+HACKER HOUSE GOA 2026,Devfolio,25.0,2026-10-31T08:30:00+00:00,0,In-Person,0,,Devfolio,55818.0,All levels,0,https://hacker-house-goa-2026.devfolio.co,,,2026-07-09T15:29:06.011933+00:00
 Hack On Hills 8.0,Devfolio,19.0,2026-11-01T20:00:00+00:00,0,In-Person,0,,Devfolio,3324.0,All levels,0,https://hackonhills8.devfolio.co,,,2026-07-09T15:29:06.011933+00:00
 MLH Hackathon,MLH,39.0,,MLH Sponsor Prizes,United States,0,Student Hackathon,Major League Hacking,,Beginner friendly,0,https://events.mlh.io/events/14284-global-hack-week-season-launch?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Global+Hack+Week%3A+Season+Launch,"mlh, student, hackathon",Official student hackathon part of the MLH 2027 season.,2026-07-09T15:29:06.011933+00:00
 MLH Hackathon,MLH,39.0,,MLH Sponsor Prizes,United States,0,Student Hackathon,Major League Hacking,,Beginner friendly,0,https://events.mlh.io/events/14312-global-hack-week-agents?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Global+Hack+Week%3A+Agents,"mlh, student, hackathon",Official student hackathon part of the MLH 2027 season.,2026-07-09T15:29:06.011933+00:00
